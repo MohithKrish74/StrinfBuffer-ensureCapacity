@@ -1,0 +1,43 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the string : ");
+        StringBuffer stringbuffer1=new StringBuffer(in.nextLine());
+        System.out.println("The string before capacity is  "+stringbuffer1.capacity());
+        System.out.print("Enter the capacity of the string : ");
+        int capacity=in.nextInt();
+        stringbuffer1.ensureCapacity(capacity);
+        System.out.println("The string after capacity is "+stringbuffer1.capacity());
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
